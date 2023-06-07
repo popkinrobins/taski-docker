@@ -1,14 +1,3 @@
-name: Main Taski workflow
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  tests:
-    # Разворачиваем окружение:
-    runs-on: ubuntu-latest
 
     steps:
     # Копируем код проекта
